@@ -1,6 +1,7 @@
 /* Mon fichier de style CSS */
 
-/* FONTS ---------------------------------------------------------------------------------------------------------*/
+/* FONTS ------------------------------------------------------------------------------- FONTS */
+/* Montserrat */
 /* montserrat-regular - latin */
 @font-face {
     font-display: swap;
@@ -14,9 +15,9 @@
          url('../fonts/montserrat-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
          url('../fonts/montserrat-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/montserrat-v15-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
-  }
-  /* montserrat-500 - latin */
-  @font-face {
+}
+/* montserrat-500 - latin */
+@font-face {
     font-display: swap;
     font-family: 'Montserrat';
     font-style: normal;
@@ -28,9 +29,9 @@
          url('../fonts/montserrat-v15-latin-500.woff') format('woff'), /* Modern Browsers */
          url('../fonts/montserrat-v15-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/montserrat-v15-latin-500.svg#Montserrat') format('svg'); /* Legacy iOS */
-  }
-  /* montserrat-600 - latin */
-  @font-face {
+}
+/* montserrat-600 - latin */
+@font-face {
     font-display: swap;
     font-family: 'Montserrat';
     font-style: normal;
@@ -42,9 +43,9 @@
          url('../fonts/montserrat-v15-latin-600.woff') format('woff'), /* Modern Browsers */
          url('../fonts/montserrat-v15-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/montserrat-v15-latin-600.svg#Montserrat') format('svg'); /* Legacy iOS */
-  }
-  /* montserrat-700 - latin */
-  @font-face {
+}
+/* montserrat-700 - latin */
+@font-face {
     font-display: swap;
     font-family: 'Montserrat';
     font-style: normal;
@@ -56,10 +57,10 @@
          url('../fonts/montserrat-v15-latin-700.woff') format('woff'), /* Modern Browsers */
          url('../fonts/montserrat-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/montserrat-v15-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
-  }
+}
 
-
-  /* raleway-regular - latin */
+/* Raleway */
+/* raleway-regular - latin */
 @font-face {
 font-display: swap;
     font-family: 'Raleway';
@@ -72,9 +73,9 @@ font-display: swap;
          url('../fonts/raleway-v19-latin-regular.woff') format('woff'), /* Modern Browsers */
          url('../fonts/raleway-v19-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/raleway-v19-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
-  }
-  /* raleway-600 - latin */
-  @font-face {
+}
+/* raleway-600 - latin */
+@font-face {
     font-display: swap;
     font-family: 'Raleway';
     font-style: normal;
@@ -86,9 +87,9 @@ font-display: swap;
          url('../fonts/raleway-v19-latin-600.woff') format('woff'), /* Modern Browsers */
          url('../fonts/raleway-v19-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/raleway-v19-latin-600.svg#Raleway') format('svg'); /* Legacy iOS */
-  }
-  /* raleway-700 - latin */
-  @font-face {
+}
+/* raleway-700 - latin */
+@font-face {
     font-display: swap;
     font-family: 'Raleway';
     font-style: normal;
@@ -100,16 +101,97 @@ font-display: swap;
          url('../fonts/raleway-v19-latin-700.woff') format('woff'), /* Modern Browsers */
          url('../fonts/raleway-v19-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/raleway-v19-latin-700.svg#Raleway') format('svg'); /* Legacy iOS */
-  }
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+.ral-font {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* VARIABLES ------------------------------------------------------------------------------- VARIABLES */
+:root {
+    /* Dark grey */
+    --dark-grey-1: #777777;
+    --dark-grey-2:#707070;
+    --dark-grey-3:#444444;
+    --dark-grey-4:#333333;
+    
+    /* Light gray */
+    --light-grey-1:#CCCCCC;
+    --light-grey-2: #EEEEEE;
+    --light-grey-3: #F9F9F9;
+
+    /* Dark with opacity */
+    --dark-opacity-29: #00000029;
+
+    /* Accent color */
+    --accent: #F16822;
+
+    /* White */
+    --white: #FFFFFF;
+}
 
 
-  /* LAYOUT ---------------------------------------------------------------------------------------------------------*/
+
+/* LAYOUT ------------------------------------------------------------------------------- LAYOUT */
+.container {
+    margin: 0 auto;
+    max-width: 80em; /* 1280px */
+}
 
 
 
+/* COMPONENTS ------------------------------------------------------------------------- COMPONENTS */
+.nav-square-bar{
+    margin: 0;
+}
+
+.btn-square {
+    margin: 0;
+}
 
 
 
+/* HEADER -------------------------------------------------------------------------------- HEADER */
+.site-nav {
+    margin: 3.3rem auto;
+    display: flex;
+    justify-content: space-between;
+}
 
+.company-identity {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 1.15rem;
+    column-gap: 1.8rem;
+}
 
-  /* COMPONENTS ---------------------------------------------------------------------------------------------------------*/
+.logo {
+    grid-row: span 2;
+    place-self: center;
+}
+.company-name {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+    color: var(--dark-grey-2);
+    
+}
+
+.tagline {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--dark-grey-2);
+}
+
+.nav-menu {
+    display: flex;
+}

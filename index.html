@@ -1,12 +1,392 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ubiquity</title>
+
+    <!-- Reset -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
+
+    <!-- Header Section -->
+    <header class="site-header">
+        <nav class="site-nav">
+
+            <!-- Company Identity -->
+            <div class="company-identity">
+                <img class="logo" src="" alt="">
+                <p class="company-name">Ubiquity</p>
+                <p class="tagline">Professional Web UI</p>
+            </div>
+
+            <!-- Navigation -->
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link checked">HOME</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">PORTFOLIO</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Main section -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+
+            <h1 class="hero-title">At Ubiquity , We care</h1>
+
+            <!-- Left and right line -->
+            <div>
+                <!-- Picto gauche -->
+                <img src="img/arrow-circle-left.png" alt="Bouton de navigation vers la gauche">
+                <!-- Picto droite -->
+                <img src="img/arrow-circle-left.png" alt="Bouton de navigation vers la droite">
+            </div>
+            <p class="hero-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed.</p>
+
+            <!-- Boutons de navigation du hero -->
+            <div class="nav-square-bar">
+                <span class="nav-square"></span>
+                <span class="nav-square checked"></span>
+                <span class="nav-square"></span>
+                <span class="nav-square"></span>
+                <span class="nav-square"></span>
+                <span class="nav-square"></span>
+                <span class="nav-square"></span>
+                <span class="nav-square"></span>
+            </div>
+
+        </section>
+
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+
+            <h2 class="section-title">Our Services</h2>
+
+            <!-- Boutons de navigation de section ? -->
+            <div class="nav-square-bar">
+                <span class="nav-square checked"></span>
+                <span class="nav-square"></span>
+            </div>
+
+            <p class="text-section">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+
+            <!-- Services list -->
+            <div class="services-list">
+
+                <!-- Consultation service -->
+                <figure class="service">
+                    <div class="service-img-box">
+                        <img class="service-img" src="img/briefcase.png" alt="">
+                    </div>
+                    <figcaption class="service-caption">
+                        <h3 class="service-name">Consultation</h3>
+                        <p class="service-description">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
+                    </figcaption>
+                </figure>
+
+                <!-- Blogging service -->
+                <figure class="service">
+                    <div class="service-img-box">
+                        <img class="service-img" src="img/notes.png" alt="">
+                    </div>
+                    <figcaption class="service-caption">
+                        <h3 class="service-name">Blogging</h3>
+                        <p class="service-description">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
+                    </figcaption>
+                </figure>
+
+                <!-- Social Media service -->
+                <figure class="service">
+                    <div class="service-img-box">
+                        <img class="service-img" src="img/star.png" alt="">
+                    </div>
+                    <figcaption class="service-caption">
+                        <h3 class="service-name">Social Media</h3>
+                        <p class="service-description">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
+                    </figcaption>
+                </figure>
+
+                <!-- SEO service -->
+                <figure class="service">
+                    <div class="service-img-box">
+                        <img class="service-img" src="img/bolt.png" alt="">
+                    </div>
+                    <figcaption class="service-caption">
+                        <h3 class="service-name">SEO</h3>
+                        <p class="service-description">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
+                    </figcaption>
+                </figure>
+
+            </div> <!-- End - Services list -->
+
+        </section> <!-- End - Services Section -->
+
+
+        <!-- About Section -->
+        <section class="about" id="about">
+
+            <h2 class="section-title">What is Ubiquity</h2>
+
+            <!-- Boutons de navigation de section ? -->
+            <div class="nav-square-bar">
+                <span class="nav-square checked"></span>
+                <span class="nav-square"></span>
+            </div>
+
+            <p class="text-section">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,</p>
+
+            <!-- Image de section -->
+            <img class="about-section-img" src="img/Groupe 33.png" alt="Un apreçu des pages de notre site">
+
+        </section>  <!-- End -About Section -->
+
+
+        <!-- Posts Section -->
+        <section class="posts" id="posts">
+
+            <h2 class="section-title">Latest Posts</h2>
+
+            <!-- Boutons de navigation de section ? -->
+            <div class="nav-square-bar">
+                <span class="nav-square checked"></span>
+                <span class="nav-square"></span>
+            </div>
+
+            <!-- 
+                Le texte doit-il rester sur une seule ligne ??
+                Affiché : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
+            -->
+            <p class="text-section">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+
+            <!-- Postes list -->
+            <ul class="posts-list">
+                <li class="post">
+                    <img class="post-img" src="img/annie-spratt-wgivdx9dBdQ-unsplash.png" srcset="img/annie-spratt-wgivdx9dBdQ-unsplash@2x.png 2x" alt="Nos super bureaux ! On sent une ambiance zen et décontactée ! Il y a même un chat Maneki Neko sur le premier bureau.">
+                    <h3 class="post-tilte">Blog Title</h3>
+                    <p class="post-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                </li>
+                <li class="post">
+                    <img class="post-img" src="img/william-iven-SpVHcbuKi6E-unsplash.png" srcset="img/william-iven-SpVHcbuKi6E-unsplash@2x.png 2x" alt="Un personne consulte sont télphone perso sur son lieu de travail ! D'après ma dernière formation SecNum, ce genre de comportement pourrait être considéré comme suspect !">
+                    <h3 class="post-tilte">Title of the Blog</h3>
+                    <p class="post-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                </li>
+                <li class="post">
+                    <img class="post-img" src="img/green-chameleon-s9CC2SKySJM-unsplash.png" srcset="img/green-chameleon-s9CC2SKySJM-unsplash@2x.png 2x" alt="Une main, plutôt féminine, écrit ou dessine quelque chose. Une tasse de thé lapsang souchong bio est posée sur le bureau.">
+                    <h3 class="post-tilte">Title of the Blog</h3>
+                    <p class="post-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                </li>
+                <li class="post">
+                    <img class="post-img" src="img/helloquence-5fNmWej4tAA-unsplash.png" srcset="img/helloquence-5fNmWej4tAA-unsplash@2x.png 2x" alt="Deux personnes travaillent sur deux ordinateurs et une feuille de papier. Leur projet à l'air super sérieux ! Mieux vaut ne pas les déranger.">
+                    <h3 class="post-tilte">Blog Title</h3>
+                    <p class="post-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                </li>
+                <li class="post">
+                    <img class="post-img" src="img/lauren-mancke-aOC7TSLb1o8-unsplash.png" srcset="img/lauren-mancke-aOC7TSLb1o8-unsplash@2x.png 2x" alt="Un ordinateur et une tasse de café sur un bureau. Il y a aussi des post-it chiffonés ! Visiblement il n'y a pas de poubelle dans ce bureau.">
+                    <h3 class="post-tilte">Blog Title</h3>
+                    <p class="post-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                </li>
+                <li class="post">
+                    <img class="post-img" src="img/annie-spratt-wgivdx9dBdQ-unsplash.png" srcset="img/annie-spratt-wgivdx9dBdQ-unsplash@2x.png 2x" alt="Nos super bureaux ! On sent une ambiance zen et décontactée ! Il y a même un chat Maneki Neko sur le premier bureau.">
+                    <h3 class="post-tilte">Blog Title</h3>
+                    <p class="post-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                </li>
+            </ul>
+
+        </section> <!-- End - Posts Section -->
+
+
+        <!-- Fun Facts Section -->
+        <section class="fun-facts" id="fun-facts">
+
+            <h2 class="section-title">Latest Posts</h2>
+
+            <!-- Boutons de navigation de section ? -->
+            <div class="nav-square-bar">
+                <span class="nav-square checked"></span>
+                <span class="nav-square"></span>
+            </div>
+
+            <!-- Statistiques -->
+            <ul>
+                <li class="stat-box">
+                    <span class="stat-number"></span>
+                    <p class="stat-text"></p>
+                </li>
+                <li class="stat-box">
+                    <span class="stat-number"></span>
+                    <p class="stat-text"></p>
+                </li>
+                <li class="stat-box">
+                    <span class="stat-number"></span>
+                    <p class="stat-text"></p>
+                </li>
+                <li class="stat-box">
+                    <span class="stat-number"></span>
+                    <p class="stat-text"></p>
+                </li>
+                <li class="stat-box">
+                    <span class="stat-number"></span>
+                    <p class="stat-text"></p>
+                </li>
+                <li class="stat-box">
+                    <span class="stat-number"></span>
+                    <p class="stat-text"></p>
+                </li>
+            </ul>
+
+        </section> <!-- End - Fun Facts Section -->
+
+
+        <!-- Team Section -->
+        <section class="team" id="team">
+
+            <!-- Teamate -->
+            <!-- Balise Article ?  Sa propre vie en dehors ? -->
+            <article>
+                <img class="teamate-pict" src="img/Image 1.png" srcset="img/Image 1@2x.png 2x" alt="Amanda, prise en photo du dessus, travaillant sur un laptop. On ne voit pas son visage, qu'elle cache avec ses cheveux.">
+                <h2 class="teamate-name">Amanda Sigfried</h2>
+                <p class="teamate-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+            </article>
+
+            <!-- Boutons de navigation teamate -->
+            <div class="nav-square-bar">
+                <span class="nav-square"></span>
+                <span class="nav-square checked"></span>
+                <span class="nav-square"></span>
+                <span class="nav-square"></span>
+                <span class="nav-square"></span>
+                <span class="nav-square"></span>
+                <span class="nav-square"></span>
+                <span class="nav-square"></span>
+            </div>
+
+        </section> <!-- End - Team Section -->
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <ul class="links">
+            <!-- Recent Posts links -->
+            <li class="posts-links">
+                <h2 class="footer-title">Recent posts</h2>
+                <ul class="post-and-comment-list">
+                    <li>
+                        <a class="post-and-comment-list-link" href="#">Lorem ipsum dolor</a>
+                    </li>
+                    <li>
+                        <a class="post-and-comment-list-link" href="#">sit amet, consetetur</a>
+                    </li>
+                    <li>
+                        <a class="post-and-comment-list-link" href="#">sadipscing elitr, sed</a>
+                    </li>
+                    <li>
+                        <a class="post-and-comment-list-link" href="#">diam nonumy</a>
+                    </li>
+                    <li>
+                        <a class="post-and-comment-list-link" href="#">eirmod tempor.</a>
+                    </li>
+                </ul>
+            </li>
+
+            <!-- Recent Comments links -->
+            <li class="comments-links">
+                <h2 class="footer-title">Recent comments</h2>
+                <ul class="post-and-comment-list">
+                    <li>
+                        <a class="post-and-comment-list-link" href="#">Lorem ipsum dolor</a>
+                    </li>
+                    <li>
+                        <a class="post-and-comment-list-link" href="#">sit amet, consetetur</a>
+                    </li>
+                    <li>
+                        <a class="post-and-comment-list-link" href="#">sadipscing elitr, sed</a>
+                    </li>
+                    <li>
+                        <a class="post-and-comment-list-link" href="#">diam nonumy</a>
+                    </li>
+                    <li>
+                        <a class="post-and-comment-list-link" href="#">eirmod tempor.</a>
+                    </li>
+                </ul>
+            </li>
+
+            <!-- Tags links -->
+            <li class="tags-links">
+                <h2 class="footer-title">Tags</h2>
+                <ul class="tag-list">
+                    <li>
+                        <a href="#">Insider</a>
+                    </li>
+                    <li>
+                        <a href="#">Check</a>
+                    </li>
+                    <li>
+                        <a href="#">Demo</a>
+                    </li>
+                    <li>
+                        <a href="#">Office</a>
+                    </li>
+                    <li>
+                        <a href="#">Work</a>
+                    </li>
+                    <li>
+                        <a href="#">Post</a>
+                    </li>
+                    <li>
+                        <a href="#">Management</a>
+                    </li>
+                </ul>
+            </li>
+
+            <!-- Address -->
+            <li class="address-links">
+                <h2 class="footer-title">Ubiquity</h2>
+                <address class="company-address">
+                    <ul class="address-list">
+                        <li>
+                            <a href="#">
+                                <img src="img/map-marker.png" alt="">
+                                <p>2499 Bee Street, Bear Lake Michigan 49614</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/phone.png" alt="">
+                                <p>231 - 864 - 8100</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/envelope.png" alt="">
+                                <p>Hello@domainname.com</p>
+                            </a>
+                        </li>
+                    </ul>
+                </address>
+            </li>
+        </ul>
+
+        <footer>
+
+        </footer>
+
+    </footer>
     
 </body>
 </html>

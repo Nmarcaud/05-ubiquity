@@ -46,25 +46,30 @@
 
             <h1 class="hero-title">At Ubiquity , We care</h1>
 
-            <!-- Left and right line -->
+            <!-- Left and right button -->
             <div>
-                <!-- Picto gauche -->
-                <img src="img/arrow-circle-left.png" alt="Bouton de navigation vers la gauche">
-                <!-- Picto droite -->
-                <img src="img/arrow-circle-left.png" alt="Bouton de navigation vers la droite">
+                <!-- Bouton gauche -->
+                <button class="btn-carroussel" role="button">
+                    <img src="img/arrow-circle-left.png" alt="Bouton de navigation vers la gauche">
+                </button>
+                <!-- Bouton droite -->
+                <button class="btn-carroussel" role="button">
+                    <img src="img/arrow-circle-left.png" alt="Bouton de navigation vers la droite">
+                </button>
             </div>
+
             <p class="hero-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed.</p>
 
             <!-- Boutons de navigation du hero -->
             <div class="nav-square-bar">
-                <span class="nav-square"></span>
-                <span class="nav-square checked"></span>
-                <span class="nav-square"></span>
-                <span class="nav-square"></span>
-                <span class="nav-square"></span>
-                <span class="nav-square"></span>
-                <span class="nav-square"></span>
-                <span class="nav-square"></span>
+                <button class="btn-square" role="button"></button>
+                <button class="btn-square checked" role="button"></button>
+                <button class="btn-square" role="button"></button>
+                <button class="btn-square" role="button"></button>
+                <button class="btn-square" role="button"></button>
+                <button class="btn-square" role="button"></button>
+                <button class="btn-square" role="button"></button>
+                <button class="btn-square" role="button"></button>
             </div>
 
         </section>
@@ -77,8 +82,8 @@
 
             <!-- Boutons de navigation de section ? -->
             <div class="nav-square-bar">
-                <span class="nav-square checked"></span>
-                <span class="nav-square"></span>
+                <button class="btn-square checked" role="button"></button>
+                <button class="btn-square" role="button"></button>
             </div>
 
             <p class="text-section">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
@@ -142,8 +147,8 @@
 
             <!-- Boutons de navigation de section ? -->
             <div class="nav-square-bar">
-                <span class="nav-square checked"></span>
-                <span class="nav-square"></span>
+                <button class="btn-square checked" role="button"></button>
+                <button class="btn-square" role="button"></button>
             </div>
 
             <p class="text-section">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,</p>
@@ -161,8 +166,8 @@
 
             <!-- Boutons de navigation de section ? -->
             <div class="nav-square-bar">
-                <span class="nav-square checked"></span>
-                <span class="nav-square"></span>
+                <button class="btn-square checked" role="button"></button>
+                <button class="btn-square" role="button"></button>
             </div>
 
             <!-- 
@@ -215,12 +220,12 @@
 
             <!-- Boutons de navigation de section ? -->
             <div class="nav-square-bar">
-                <span class="nav-square checked"></span>
-                <span class="nav-square"></span>
+                <button class="btn-square checked" role="button"></button>
+                <button class="btn-square" role="button"></button>
             </div>
 
             <!-- Statistiques -->
-            <ul>
+            <ul class="statistiques-list">
                 <li class="stat-box">
                     <span class="stat-number"></span>
                     <p class="stat-text"></p>
@@ -255,7 +260,7 @@
 
             <!-- Teamate -->
             <!-- Balise Article ?  Sa propre vie en dehors ? -->
-            <article>
+            <article class="teamate-presentation">
                 <img class="teamate-pict" src="img/Image 1.png" srcset="img/Image 1@2x.png 2x" alt="Amanda, prise en photo du dessus, travaillant sur un laptop. On ne voit pas son visage, qu'elle cache avec ses cheveux.">
                 <h2 class="teamate-name">Amanda Sigfried</h2>
                 <p class="teamate-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
@@ -263,14 +268,14 @@
 
             <!-- Boutons de navigation teamate -->
             <div class="nav-square-bar">
-                <span class="nav-square"></span>
-                <span class="nav-square checked"></span>
-                <span class="nav-square"></span>
-                <span class="nav-square"></span>
-                <span class="nav-square"></span>
-                <span class="nav-square"></span>
-                <span class="nav-square"></span>
-                <span class="nav-square"></span>
+                <button class="btn-square" role="button"></button>
+                <button class="btn-square checked" role="button"></button>
+                <button class="btn-square" role="button"></button>
+                <button class="btn-square" role="button"></button>
+                <button class="btn-square" role="button"></button>
+                <button class="btn-square" role="button"></button>
+                <button class="btn-square" role="button"></button>
+                <button class="btn-square" role="button"></button>
             </div>
 
         </section> <!-- End - Team Section -->
@@ -279,99 +284,100 @@
 
 
     <!-- Footer -->
-    <footer>
+    <footer class="site-footer">
 
         <ul class="links">
+
             <!-- Recent Posts links -->
             <li class="posts-links">
                 <h2 class="footer-title">Recent posts</h2>
                 <ul class="post-and-comment-list">
-                    <li>
+                    <li class="post-and-comment-list-item">
                         <a class="post-and-comment-list-link" href="#">Lorem ipsum dolor</a>
                     </li>
-                    <li>
+                    <li class="post-and-comment-list-item">
                         <a class="post-and-comment-list-link" href="#">sit amet, consetetur</a>
                     </li>
-                    <li>
+                    <li class="post-and-comment-list-item">
                         <a class="post-and-comment-list-link" href="#">sadipscing elitr, sed</a>
                     </li>
-                    <li>
+                    <li class="post-and-comment-list-item">
                         <a class="post-and-comment-list-link" href="#">diam nonumy</a>
                     </li>
-                    <li>
+                    <li class="post-and-comment-list-item">
                         <a class="post-and-comment-list-link" href="#">eirmod tempor.</a>
                     </li>
                 </ul>
-            </li>
+            </li> <!-- End - Recent Posts links -->
 
             <!-- Recent Comments links -->
             <li class="comments-links">
                 <h2 class="footer-title">Recent comments</h2>
                 <ul class="post-and-comment-list">
-                    <li>
+                    <li class="post-and-comment-list-item">
                         <a class="post-and-comment-list-link" href="#">Lorem ipsum dolor</a>
                     </li>
-                    <li>
+                    <li class="post-and-comment-list-item">
                         <a class="post-and-comment-list-link" href="#">sit amet, consetetur</a>
                     </li>
-                    <li>
+                    <li class="post-and-comment-list-item">
                         <a class="post-and-comment-list-link" href="#">sadipscing elitr, sed</a>
                     </li>
-                    <li>
+                    <li class="post-and-comment-list-item">
                         <a class="post-and-comment-list-link" href="#">diam nonumy</a>
                     </li>
-                    <li>
+                    <li class="post-and-comment-list-item">
                         <a class="post-and-comment-list-link" href="#">eirmod tempor.</a>
                     </li>
                 </ul>
-            </li>
+            </li> <!-- End - Recent Comments links -->
 
             <!-- Tags links -->
             <li class="tags-links">
                 <h2 class="footer-title">Tags</h2>
                 <ul class="tag-list">
-                    <li>
+                    <li class="tag-list-item">
                         <a href="#">Insider</a>
                     </li>
-                    <li>
+                    <li class="tag-list-item">
                         <a href="#">Check</a>
                     </li>
-                    <li>
+                    <li class="tag-list-item">
                         <a href="#">Demo</a>
                     </li>
-                    <li>
+                    <li class="tag-list-item">
                         <a href="#">Office</a>
                     </li>
-                    <li>
+                    <li class="tag-list-item">
                         <a href="#">Work</a>
                     </li>
-                    <li>
+                    <li class="tag-list-item">
                         <a href="#">Post</a>
                     </li>
-                    <li>
+                    <li class="tag-list-item">
                         <a href="#">Management</a>
                     </li>
                 </ul>
-            </li>
+            </li> <!-- End - Tags links -->
 
             <!-- Address -->
             <li class="address-links">
                 <h2 class="footer-title">Ubiquity</h2>
                 <address class="company-address">
                     <ul class="address-list">
-                        <li>
+                        <li class="address-list-item">
                             <a href="#">
                                 <img src="img/map-marker.png" alt="">
                                 <p>2499 Bee Street, Bear Lake Michigan 49614</p>
                             </a>
                         </li>
-                        <li>
+                        <li class="address-list-item">
                             <a href="#">
                                 <img src="img/phone.png" alt="">
                                 <p>231 - 864 - 8100</p>
                             </a>
                         </li>
-                        <li>
+                        <li class="address-list-item">
                             <a href="#">
                                 <img src="img/envelope.png" alt="">
                                 <p>Hello@domainname.com</p>
@@ -379,10 +385,31 @@
                         </li>
                     </ul>
                 </address>
-            </li>
+            </li> <!-- End - Address -->
         </ul>
 
-        <footer>
+        <footer class="footer-footer">
+
+            <!-- Séprateur qui sépare -->
+            <hr>
+
+            <div class="under-hr">
+
+                <p class="copyright-text">&copy; 2019 Ubiquity . All Rights Reserved.</p>
+
+                <!-- Socials -->
+                <ul class="social-links">
+                    <li class="social-links-item">
+                        <a class="social-link" href="#"><img src="img/icons8-facebook.png" alt="Bouton facebook"></a>
+                    </li>
+                    <li class="social-links-item">
+                        <a class="social-link" href="#"><img src="img/icons8-twitter.png" alt="Bouton twitter"></a>
+                    </li>
+                    <li class="social-links-item">
+                        <a class="social-link" href="#"><img src="img/icons8-google-plus.png" alt="Bouton google +"></a>
+                    </li>
+                </ul>
+            </div>
 
         </footer>
 

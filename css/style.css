@@ -159,7 +159,7 @@ h4,
     margin: 0 auto;
     font-size: 2.4rem;
     line-height: 3.2rem;
-    margin-top: 3.2rem;
+    margin-top: 5.4rem;
 }
 
 
@@ -442,6 +442,7 @@ h4,
 .post {
     padding: 2.5rem;
     box-shadow: 0px 3px 6px #00000029;
+    cursor: pointer;
 }
 
 .post img {
@@ -460,6 +461,7 @@ h4,
 }
 
 
+
 /* FUN FACTS SECTION -------------------------------------------------------------------------------- FUN FACTS SECTION */
 .fun-facts {
     background-image: linear-gradient(to left,rgba(255,255,255,.7),rgba(255,255,255,.7)), url("../img/lauren-mancke-aOC7TSLb1o8-unsplash@2x.png");
@@ -475,18 +477,20 @@ h4,
     font-weight: 700;
 }
 
-.stat-number {
-    color: var(--accent);
-    font-size: 6.4rem;
-    line-height: 7.8rem;
-}
-
 .stat-text {
     margin-top: 2.3rem;
     font-size: 2.4rem;
     line-height: 3.2rem;
     text-transform: uppercase;
 }
+
+.stat-number {
+    color: var(--accent);
+    font-size: 6.4rem;
+    line-height: 7.8rem;
+}
+
+
 
 
 
@@ -499,12 +503,6 @@ h4,
 #team {
     padding: 17rem 0 8rem 0;
 }
-
-
-
-
-
-
 
 .team .carroussel-large-bar {
     margin-top: 12rem;
@@ -526,3 +524,88 @@ h4,
     margin-top: 2.4rem;
 }
 
+
+
+
+/* FOOTER -------------------------------------------------------------------------------- FOOTER */
+.site-footer {
+    background-color: var(--dark-grey-4);
+    color: var(--white);
+    padding-top: 11rem;
+}
+
+.site-footer a {
+    color: var(--white);
+}
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: left;
+}
+
+/* VS Code ne le prend pa en compte ! */
+.footer-title {
+    color: var(--accent);
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    letter-spacing: 0.24px;
+}
+
+
+/* Posts & Comments */
+.post-and-comment-list-link {
+    font-size: 2rem;
+    line-height: 4.1rem;
+    letter-spacing: 0.2px;
+    position: relative;
+    padding-left: 2rem;
+    transition: .4s;
+}
+
+.post-and-comment-list-link::before {
+    content: '';
+    position: absolute;
+    width: 1.2rem;
+    height: 1.2rem;
+    top:40%;
+    left: 0;
+    background-image: url('../img/angle-double-right.svg');
+    background-repeat: no-repeat;
+    background-size: center;
+}
+/* Survol des liens */
+.post-and-comment-list-link:hover::before {
+    transform:translateX(.2rem);
+}
+
+
+/* Tags */
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tag-list-item{
+    padding: .5rem 1.2rem;
+    background-color: var(--dark-grey-3);
+    margin: .6rem;
+}
+
+
+/* Address */
+/* .map-link {
+    content: '';
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    top:40%;
+    left: 0;
+    background-image: url('../map-marker.svg');
+    background-repeat: no-repeat;
+    background-size: center;
+} */
+
+.footer-footer {
+    margin-top: 10.7rem;
+}

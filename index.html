@@ -27,11 +27,11 @@
 
             <!-- Navigation -->
             <ul class="nav-menu">
-                <li class="nav-item"><a href="#" class="nav-link checked">HOME</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">PORTFOLIO</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
+                <li class="nav-item"><a href="#" class="nav-link checked">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
             </ul>
 
         </nav>
@@ -49,7 +49,7 @@
                 <h1 class="hero-title">At Ubiquity , We care</h1>
 
                 <!-- Left and right button -->
-                <div>
+                <div class="left-and-right-buttons">
                     <!-- Bouton gauche -->
                     <button class="btn-carroussel" role="button">
                         <img src="img/arrow-circle-left.svg" alt="Bouton de navigation vers la gauche">
@@ -63,7 +63,7 @@
                 <p class="hero-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed.</p>
 
                 <!-- Boutons de navigation du hero -->
-                <div class="nav-square-bar">
+                <div class="carroussel-large-bar">
                     <button class="btn-square" role="button"></button>
                     <button class="btn-square checked" role="button"></button>
                     <button class="btn-square" role="button"></button>
@@ -80,14 +80,14 @@
 
 
         <!-- Services Section -->
-        <section class="services" id="services">
+        <section class="services section" id="services">
 
             <div class="services-content container">
 
                 <h2 class="section-title">Our Services</h2>
 
                 <!-- Boutons de navigation de section ? -->
-                <div class="nav-square-bar">
+                <div class="carroussel-light-bar">
                     <button class="btn-square checked" role="button"></button>
                     <button class="btn-square" role="button"></button>
                 </div>
@@ -100,45 +100,37 @@
                     <!-- Consultation service -->
                     <figure class="service">
                         <div class="service-img-box">
-                            <img class="service-img" src="img/briefcase.png" alt="">
+                            <img class="service-img" src="img/briefcase.svg" alt="">
                         </div>
-                        <figcaption class="service-caption">
-                            <h3 class="service-name">Consultation</h3>
-                            <p class="service-description">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
-                        </figcaption>
+                        <h3 class="service-name">Consultation</h3>
+                        <p class="service-description">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
                     </figure>
 
                     <!-- Blogging service -->
                     <figure class="service">
                         <div class="service-img-box">
-                            <img class="service-img" src="img/notes.png" alt="">
+                            <img class="service-img" src="img/notes.svg" alt="">
                         </div>
-                        <figcaption class="service-caption">
-                            <h3 class="service-name">Blogging</h3>
-                            <p class="service-description">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
-                        </figcaption>
+                        <h3 class="service-name">Blogging</h3>
+                        <p class="service-description">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
                     </figure>
 
                     <!-- Social Media service -->
                     <figure class="service">
                         <div class="service-img-box">
-                            <img class="service-img" src="img/star.png" alt="">
+                            <img class="service-img" src="img/star.svg" alt="">
                         </div>
-                        <figcaption class="service-caption">
-                            <h3 class="service-name">Social Media</h3>
-                            <p class="service-description">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
-                        </figcaption>
+                        <h3 class="service-name">Social Media</h3>
+                        <p class="service-description">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
                     </figure>
 
                     <!-- SEO service -->
                     <figure class="service">
                         <div class="service-img-box">
-                            <img class="service-img" src="img/bolt.png" alt="">
+                            <img class="service-img" src="img/bolt.svg" alt="">
                         </div>
-                        <figcaption class="service-caption">
-                            <h3 class="service-name">SEO</h3>
-                            <p class="service-description">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
-                        </figcaption>
+                        <h3 class="service-name">SEO</h3>
+                        <p class="service-description">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
                     </figure>
 
                 </div> <!-- End - Services list -->
@@ -149,22 +141,22 @@
 
 
         <!-- About Section -->
-        <section class="about" id="about">
+        <section class="about section" id="about">
 
             <div class="about-content container">
 
                 <h2 class="section-title">What is Ubiquity</h2>
 
                 <!-- Boutons de navigation de section ? -->
-                <div class="nav-square-bar">
+                <div class="carroussel-light-bar">
                     <button class="btn-square checked" role="button"></button>
-                    <button class="btn-square" role="button"></button>
+                    <button class="btn-square inverted" role="button"></button>
                 </div>
 
                 <p class="text-section">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,</p>
 
                 <!-- Image de section -->
-                <img class="about-section-img" src="img/Groupe 33.png" alt="Un apreçu des pages de notre site">
+                <!-- <img class="about-section-img" src="img/Groupe 33.png" alt="Un apreçu des pages de notre site"> -->
 
             </div> <!-- End - About Content -->
 
@@ -172,14 +164,14 @@
 
 
         <!-- Posts Section -->
-        <section class="posts" id="posts">
+        <section class="posts section" id="posts">
 
             <div class="posts-content container">
 
                 <h2 class="section-title">Latest Posts</h2>
 
                 <!-- Boutons de navigation de section ? -->
-                <div class="nav-square-bar">
+                <div class="carroussel-light-bar">
                     <button class="btn-square checked" role="button"></button>
                     <button class="btn-square" role="button"></button>
                 </div>
@@ -194,32 +186,32 @@
                 <ul class="posts-list">
                     <li class="post">
                         <img class="post-img" src="img/annie-spratt-wgivdx9dBdQ-unsplash.png" srcset="img/annie-spratt-wgivdx9dBdQ-unsplash@2x.png 2x" alt="Nos super bureaux ! On sent une ambiance zen et décontactée ! Il y a même un chat Maneki Neko sur le premier bureau.">
-                        <h3 class="post-tilte">Blog Title</h3>
+                        <h3 class="post-title">Blog Title</h3>
                         <p class="post-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
                     </li>
                     <li class="post">
                         <img class="post-img" src="img/william-iven-SpVHcbuKi6E-unsplash.png" srcset="img/william-iven-SpVHcbuKi6E-unsplash@2x.png 2x" alt="Un personne consulte sont télphone perso sur son lieu de travail ! D'après ma dernière formation SecNum, ce genre de comportement pourrait être considéré comme suspect !">
-                        <h3 class="post-tilte">Title of the Blog</h3>
+                        <h3 class="post-title">Title of the Blog</h3>
                         <p class="post-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
                     </li>
                     <li class="post">
                         <img class="post-img" src="img/green-chameleon-s9CC2SKySJM-unsplash.png" srcset="img/green-chameleon-s9CC2SKySJM-unsplash@2x.png 2x" alt="Une main, plutôt féminine, écrit ou dessine quelque chose. Une tasse de thé lapsang souchong bio est posée sur le bureau.">
-                        <h3 class="post-tilte">Title of the Blog</h3>
+                        <h3 class="post-title">Title of the Blog</h3>
                         <p class="post-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
                     </li>
                     <li class="post">
                         <img class="post-img" src="img/helloquence-5fNmWej4tAA-unsplash.png" srcset="img/helloquence-5fNmWej4tAA-unsplash@2x.png 2x" alt="Deux personnes travaillent sur deux ordinateurs et une feuille de papier. Leur projet à l'air super sérieux ! Mieux vaut ne pas les déranger.">
-                        <h3 class="post-tilte">Blog Title</h3>
+                        <h3 class="post-title">Blog Title</h3>
                         <p class="post-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
                     </li>
                     <li class="post">
                         <img class="post-img" src="img/lauren-mancke-aOC7TSLb1o8-unsplash.png" srcset="img/lauren-mancke-aOC7TSLb1o8-unsplash@2x.png 2x" alt="Un ordinateur et une tasse de café sur un bureau. Il y a aussi des post-it chiffonés ! Visiblement il n'y a pas de poubelle dans ce bureau.">
-                        <h3 class="post-tilte">Blog Title</h3>
+                        <h3 class="post-title">Blog Title</h3>
                         <p class="post-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
                     </li>
                     <li class="post">
                         <img class="post-img" src="img/annie-spratt-wgivdx9dBdQ-unsplash.png" srcset="img/annie-spratt-wgivdx9dBdQ-unsplash@2x.png 2x" alt="Nos super bureaux ! On sent une ambiance zen et décontactée ! Il y a même un chat Maneki Neko sur le premier bureau.">
-                        <h3 class="post-tilte">Blog Title</h3>
+                        <h3 class="post-title">Blog Title</h3>
                         <p class="post-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
                     </li>
                 </ul>
@@ -230,14 +222,14 @@
 
 
         <!-- Fun Facts Section -->
-        <section class="fun-facts" id="fun-facts">
+        <section class="fun-facts section" id="fun-facts">
 
             <div class="fun-facts-content container">
 
-                <h2 class="section-title">Latest Posts</h2>
+                <h2 class="section-title">Fun Facts</h2>
 
                 <!-- Boutons de navigation de section ? -->
-                <div class="nav-square-bar">
+                <div class="carroussel-light-bar">
                     <button class="btn-square checked" role="button"></button>
                     <button class="btn-square" role="button"></button>
                 </div>
@@ -245,28 +237,28 @@
                 <!-- Statistiques -->
                 <ul class="statistiques-list">
                     <li class="stat-box">
-                        <span class="stat-number"></span>
-                        <p class="stat-text"></p>
+                        <span class="stat-number">5</span>
+                        <p class="stat-text">People</p>
                     </li>
                     <li class="stat-box">
-                        <span class="stat-number"></span>
-                        <p class="stat-text"></p>
+                        <span class="stat-number">243</span>
+                        <p class="stat-text">Pageviews</p>
                     </li>
                     <li class="stat-box">
-                        <span class="stat-number"></span>
-                        <p class="stat-text"></p>
+                        <span class="stat-number">23</span>
+                        <p class="stat-text">Coffees</p>
                     </li>
                     <li class="stat-box">
-                        <span class="stat-number"></span>
-                        <p class="stat-text"></p>
+                        <span class="stat-number">600</span>
+                        <p class="stat-text">Hours</p>
                     </li>
                     <li class="stat-box">
-                        <span class="stat-number"></span>
-                        <p class="stat-text"></p>
+                        <span class="stat-number">40</span>
+                        <p class="stat-text">Days</p>
                     </li>
                     <li class="stat-box">
-                        <span class="stat-number"></span>
-                        <p class="stat-text"></p>
+                        <span class="stat-number">17</span>
+                        <p class="stat-text">Websites</p>
                     </li>
                 </ul>
 
@@ -276,7 +268,7 @@
 
 
         <!-- Team Section -->
-        <section class="team" id="team">
+        <section class="team section" id="team">
 
             <div class="team-content container">
 
@@ -284,14 +276,14 @@
                 <!-- Balise Article ?  Sa propre vie en dehors ? -->
                 <article class="teamate-presentation">
                     <img class="teamate-pict" src="img/Image 1.png" srcset="img/Image 1@2x.png 2x" alt="Amanda, prise en photo du dessus, travaillant sur un laptop. On ne voit pas son visage, qu'elle cache avec ses cheveux.">
-                    <h2 class="teamate-name">Amanda Sigfried</h2>
-                    <p class="teamate-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+                    <h2 class="teamate-name section-title">Amanda Sigfried</h2>
+                    <p class="teamate-text text-section">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
                 </article>
 
                 <!-- Boutons de navigation teamate -->
-                <div class="nav-square-bar">
+                <div class="carroussel-large-bar">
                     <button class="btn-square" role="button"></button>
-                    <button class="btn-square checked" role="button"></button>
+                    <button class="btn-square inverted" role="button"></button>
                     <button class="btn-square" role="button"></button>
                     <button class="btn-square" role="button"></button>
                     <button class="btn-square" role="button"></button>

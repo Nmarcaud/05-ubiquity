@@ -173,8 +173,6 @@ h4,
     background-color: var(--dark-grey-4);
 }
 
-
-
 .inverted {
     background-color: var(--light-grey-2);
 }
@@ -191,6 +189,47 @@ h4,
     line-height: 5.6rem;
     letter-spacing: 0.48px;
 }
+
+.square-underline {
+    position: relative;
+}
+
+/* Petit carré relou couleur accent */
+.square-underline-accent::before {
+    content:'';
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    bottom: -2.4rem;
+    right: 50%;
+    background-color: var(--accent);
+    margin-right: .25rem;
+}
+
+/* Petit carré relou gris foncé */
+.square-underline-dark-grey::after {
+    content:'';
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    bottom: -2.4rem;
+    left:50%;
+    background-color: var(--dark-grey-4);
+    margin-left: .25rem;
+}
+
+/* Petit carré relou gris clair */
+.square-underline-light-grey::after {
+    content:'';
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    bottom: -2.4rem;
+    left:50%;
+    background-color: var(--light-grey-2);
+    margin-left: .25rem;
+}
+
 
 
 
@@ -460,6 +499,12 @@ h4,
 #team {
     padding: 17rem 0 8rem 0;
 }
+
+
+
+
+
+
 
 .team .carroussel-large-bar {
     margin-top: 12rem;

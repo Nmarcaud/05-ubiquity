@@ -11,6 +11,12 @@
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
 
+
+    <!-- Animations AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
+
+
 </head>
 <body>
 
@@ -27,7 +33,7 @@
 
             <!-- Navigation -->
             <ul class="nav-menu">
-                <li class="nav-item"><a href="#" class="nav-link checked">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
@@ -95,45 +101,45 @@
                 <p class="text-section">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
 
                 <!-- Services list -->
-                <div class="services-list">
+                <ul class="services-list">
 
                     <!-- Consultation service -->
-                    <figure class="service">
-                        <div class="service-img-box">
+                    <li class="service">
+                        <figure class="service-img-box">
                             <img class="service-img" src="img/briefcase.svg" alt="">
-                        </div>
+                        </figure>
                         <h3 class="service-name">Consultation</h3>
                         <p class="service-description">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
-                    </figure>
+                    </li>
 
                     <!-- Blogging service -->
-                    <figure class="service">
-                        <div class="service-img-box">
+                    <li class="service">
+                        <figure class="service-img-box">
                             <img class="service-img" src="img/notes.svg" alt="">
-                        </div>
+                        </figure>
                         <h3 class="service-name">Blogging</h3>
                         <p class="service-description">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
-                    </figure>
+                    </li>
 
                     <!-- Social Media service -->
-                    <figure class="service">
-                        <div class="service-img-box">
+                    <li class="service">
+                        <figure class="service-img-box">
                             <img class="service-img" src="img/star.svg" alt="">
-                        </div>
+                        </figure>
                         <h3 class="service-name">Social Media</h3>
                         <p class="service-description">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
-                    </figure>
+                    </li>
 
                     <!-- SEO service -->
-                    <figure class="service">
-                        <div class="service-img-box">
+                    <li class="service">
+                        <figure class="service-img-box">
                             <img class="service-img" src="img/bolt.svg" alt="">
-                        </div>
+                        </figure>
                         <h3 class="service-name">SEO</h3>
                         <p class="service-description">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
-                    </figure>
+                    </li>
 
-                </div> <!-- End - Services list -->
+                </ul> <!-- End - Services list -->
 
             </div> <!-- End - Services Content -->
 
@@ -184,38 +190,38 @@
                 <p class="text-section">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
 
                 <!-- Postes list -->
-                <ul class="posts-list">
-                    <li class="post">
+                <div class="posts-list">
+                    <article class="post" data-aos="fade-up">
                         <img class="post-img" src="img/annie-spratt-wgivdx9dBdQ-unsplash.png" srcset="img/annie-spratt-wgivdx9dBdQ-unsplash@2x.png 2x" alt="Nos super bureaux ! On sent une ambiance zen et décontactée ! Il y a même un chat Maneki Neko sur le premier bureau.">
                         <h3 class="post-title">Blog Title</h3>
                         <p class="post-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
-                    </li>
-                    <li class="post">
+                    </article>
+                    <article class="post">
                         <img class="post-img" src="img/william-iven-SpVHcbuKi6E-unsplash.png" srcset="img/william-iven-SpVHcbuKi6E-unsplash@2x.png 2x" alt="Un personne consulte sont télphone perso sur son lieu de travail ! D'après ma dernière formation SecNum, ce genre de comportement pourrait être considéré comme suspect !">
                         <h3 class="post-title">Title of the Blog</h3>
                         <p class="post-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
-                    </li>
-                    <li class="post">
+                    </article>
+                    <article class="post">
                         <img class="post-img" src="img/green-chameleon-s9CC2SKySJM-unsplash.png" srcset="img/green-chameleon-s9CC2SKySJM-unsplash@2x.png 2x" alt="Une main, plutôt féminine, écrit ou dessine quelque chose. Une tasse de thé lapsang souchong bio est posée sur le bureau.">
                         <h3 class="post-title">Title of the Blog</h3>
                         <p class="post-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
-                    </li>
-                    <li class="post">
+                    </article>
+                    <article class="post">
                         <img class="post-img" src="img/helloquence-5fNmWej4tAA-unsplash.png" srcset="img/helloquence-5fNmWej4tAA-unsplash@2x.png 2x" alt="Deux personnes travaillent sur deux ordinateurs et une feuille de papier. Leur projet à l'air super sérieux ! Mieux vaut ne pas les déranger.">
                         <h3 class="post-title">Blog Title</h3>
                         <p class="post-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
-                    </li>
-                    <li class="post">
+                    </article>
+                    <article class="post">
                         <img class="post-img" src="img/lauren-mancke-aOC7TSLb1o8-unsplash.png" srcset="img/lauren-mancke-aOC7TSLb1o8-unsplash@2x.png 2x" alt="Un ordinateur et une tasse de café sur un bureau. Il y a aussi des post-it chiffonés ! Visiblement il n'y a pas de poubelle dans ce bureau.">
                         <h3 class="post-title">Blog Title</h3>
                         <p class="post-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
-                    </li>
-                    <li class="post">
+                    </article>
+                    <article class="post">
                         <img class="post-img" src="img/annie-spratt-wgivdx9dBdQ-unsplash.png" srcset="img/annie-spratt-wgivdx9dBdQ-unsplash@2x.png 2x" alt="Nos super bureaux ! On sent une ambiance zen et décontactée ! Il y a même un chat Maneki Neko sur le premier bureau.">
                         <h3 class="post-title">Blog Title</h3>
                         <p class="post-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
-                    </li>
-                </ul>
+                    </article>
+                </div>
 
             </div> <!-- End - Posts Content -->
 
@@ -237,28 +243,23 @@
 
                 <!-- Statistiques -->
                 <ul class="statistiques-list">
-                    <li class="stat-box">
-                        <p><strong class="stat-number">5</strong><br><span class="stat-text">People</span></p>
+                    <li class="stat-text">
+                        <strong class="stat-number">5</strong>People
                     </li>
-                    <li class="stat-box">
-                        <span class="stat-number">243</span>
-                        <p class="stat-text">Pageviews</p>
+                    <li class="stat-text">
+                        <strong class="stat-number">243</strong>Pageviews
                     </li>
-                    <li class="stat-box">
-                        <span class="stat-number">23</span>
-                        <p class="stat-text">Coffees</p>
+                    <li class="stat-text">
+                        <strong class="stat-number">23</strong>Coffees
                     </li>
-                    <li class="stat-box">
-                        <span class="stat-number">600</span>
-                        <p class="stat-text">Hours</p>
+                    <li class="stat-text">
+                        <strong class="stat-number">600</strong>Hours
                     </li>
-                    <li class="stat-box">
-                        <span class="stat-number">40</span>
-                        <p class="stat-text">Days</p>
+                    <li class="stat-text">
+                        <strong class="stat-number">40</strong>Days
                     </li>
-                    <li class="stat-box">
-                        <span class="stat-number">17</span>
-                        <p class="stat-text">Websites</p>
+                    <li class="stat-text">
+                        <strong class="stat-number">17</strong>Websites
                     </li>
                 </ul>
 
@@ -304,10 +305,10 @@
 
         <div class="footer-content container">
 
-            <ul class="links">
+            <div class="links">
 
                 <!-- Recent Posts links -->
-                <li class="posts-links">
+                <div class="posts-links">
                     <h2 class="footer-title">Recent posts</h2>
                     <ul class="post-and-comment-list">
                         <li class="post-and-comment-list-item">
@@ -326,10 +327,10 @@
                             <a class="post-and-comment-list-link" href="#">eirmod tempor.</a>
                         </li>
                     </ul>
-                </li> <!-- End - Recent Posts links -->
+                </div> <!-- End - Recent Posts links -->
 
                 <!-- Recent Comments links -->
-                <li class="comments-links">
+                <div class="comments-links">
                     <h2 class="footer-title">Recent comments</h2>
                     <ul class="post-and-comment-list">
                         <li class="post-and-comment-list-item">
@@ -348,10 +349,10 @@
                             <a class="post-and-comment-list-link" href="#">eirmod tempor.</a>
                         </li>
                     </ul>
-                </li> <!-- End - Recent Comments links -->
+                </div> <!-- End - Recent Comments links -->
 
                 <!-- Tags links -->
-                <li class="tags-links">
+                <div class="tags-links">
                     <h2 class="footer-title">Tags</h2>
                     <ul class="tag-list">
                         <li class="tag-list-item">
@@ -376,10 +377,10 @@
                             <a class="tag-list-link" href="#">Management</a>
                         </li>
                     </ul>
-                </li> <!-- End - Tags links -->
+                </div> <!-- End - Tags links -->
 
                 <!-- Address -->
-                <li class="address-links">
+                <div class="address-links">
                     <h2 class="footer-title">Ubiquity</h2>
                     <address class="company-address">
                         <ul class="address-list">
@@ -400,8 +401,8 @@
                             </li>
                         </ul>
                     </address>
-                </li> <!-- End - Address -->
-            </ul>
+                </div> <!-- End - Address -->
+            </div>
 
             <footer class="footer-footer">
 
@@ -432,5 +433,7 @@
 
     </footer> <!-- End - Site Footer -->
     
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </body>
 </html>

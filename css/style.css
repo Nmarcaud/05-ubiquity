@@ -285,6 +285,7 @@ h4,
     font-weight: 700;
 }
 
+.active,
 .checked {
     background-color: var(--accent);
     color: var(--white);
@@ -485,16 +486,18 @@ h4,
 }
 
 .stat-text {
-    margin-top: 2.3rem;
     font-size: 2.4rem;
     line-height: 3.2rem;
     text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
 }
 
 .stat-number {
     color: var(--accent);
     font-size: 6.4rem;
     line-height: 7.8rem;
+    margin-bottom: 2.3rem;
 }
 
 

@@ -715,6 +715,12 @@ h4,
     border-radius: 20rem;;
     display: grid;
     place-content: center;
+    transition: .4s;
+}
+/* Petite anim sympa */
+.service-img-box:hover {
+    transform: scale(1.1) rotate(-0.05turn);
+    box-shadow: 0px 6px 12px #00000029;
 }
 
 .service-name {

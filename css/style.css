@@ -195,13 +195,13 @@ h4,
     margin: 0 .5rem;
     border: 0;
     background-color: var(--dark-grey-4);
+    transition: .4s;
 }
 
 .btn-square:hover,
 .btn-square:focus {
     background-color: var(--white);
 }
-
 
 .inverted {
     background-color: var(--light-grey-2);
@@ -278,32 +278,7 @@ h4,
 }
 
 @media screen and (min-width:75em) {
-  
-    .btn-square {
-        width: 1rem;
-        height: 1rem;
-        margin: 0 .5rem;
-        border: 0;
-        background-color: var(--dark-grey-4);
-    }
-    
-    .btn-square:hover,
-    .btn-square:focus {
-        background-color: var(--white);
-    }
-    
-    
-    .inverted {
-        background-color: var(--light-grey-2);
-    }
-    
-    .carroussel-light-bar {
-        margin-top: 1.2rem;
-    }
-    .carroussel-light-bar .btn-square  {
-        margin: 0 .25rem;
-    }
-    
+
     .section-title {
         font-size: 4.8rem;
         line-height: 5.6rem;
@@ -573,6 +548,12 @@ h4,
         width: 2.5rem;
         border: 0;
         background: transparent;
+        transition: .4s;
+    }
+
+    .btn-carroussel:hover,
+    .btn-carroussel:focus {
+        transform: scale(1.1);
     }
     .carroussel-large-bar {
         margin-top: 15rem;
@@ -819,7 +800,7 @@ h4,
 }
 
 @media screen and (min-width:62em) {
-    
+
     .posts-list {
         margin-top: 5rem;
         grid-template-columns: repeat(3, 1fr);

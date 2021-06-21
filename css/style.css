@@ -154,14 +154,6 @@ h4,
     padding: 8rem 0;
 }
 
-@media screen and (min-width:36em) {
-    
-}
-
-@media screen and (min-width:48em) {
-    
-}
-
 @media screen and (min-width:62em) {
     .container {
         max-width: 80em; /* 1280px */
@@ -180,11 +172,6 @@ h4,
         margin-top: 5.4rem;
     }
 }
-
-@media screen and (min-width:75em) {
-    
-}
-
 
 
 
@@ -265,6 +252,35 @@ h4,
 }
 
 
+/* Slider */
+.swiper-slide {
+    padding: 40.3rem 0 32rem 0;
+    text-align: center;
+}
+
+.swiper-wrapper .hero-title {
+    margin-bottom: 2.4rem;
+}
+
+.swiper-pagination-bullet {
+    border-radius: 0;
+	width: 1rem;
+    height: 1rem;
+    margin: 0 .5rem;
+    border: 0;
+    opacity: 1;
+    background-color: var(--dark-grey-4);
+    transition: .4s;
+}
+.swiper-pagination-bullet:hover,
+.swiper-pagination-bullet:focus {
+    background-color: var(--white);
+}
+.swiper-pagination-bullet-active {
+	background-color: var(--accent);
+}
+
+
 @media screen and (min-width:48em) {
     .section-title {
         font-size: 3.2rem;
@@ -329,10 +345,12 @@ h4,
 
 
 /* HEADER -------------------------------------------------------------------------------- HEADER */
+
 .site-nav {
     margin: 3.3rem auto;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .company-identity {
@@ -362,14 +380,52 @@ h4,
     color: var(--dark-grey-2);
 }
 
+/* Burger Menu - Benoist --- */
+.toggle-menu {
+    padding: 0.25rem 1rem;
+    color: var(--inverted);
+    background-color: rgba(0,0,0,.15);
+    border: 0;
+    border-radius: 2rem;
+    transition: .3s;
+}
+
+.toggle-menu:hover,
+.toggle-menu:focus {
+    background-color: rgba(0,0,0,.35);
+}
+
 .nav-menu {
-    display: none;
+    position: absolute;
+    top: 150%;
+    left: 0;
+    right: 0;
+    transition: .5s;
+    background-color: var(--white);
+    display:flex;
+    flex-direction: column;
+}
+
+.nav-menu[hidden] {
+    display: block;
+    visibility: hidden;
+    transform: translateX(-100%);
+}
+
+.nav-menu:not([hidden]) {
+    transform: translateX(0);
+}
+
+
+.nav-menu {
+    /* display: none; */
 }
 
 .nav-item {
     display: inline-flex;
     margin: 0 .5rem;
 }
+
 
 .nav-link {
     text-transform: uppercase;
@@ -389,7 +445,21 @@ h4,
 }
 
 
+
 @media screen and (min-width:48em) {
+    
+    .toggle-menu {
+        display: none;
+    }
+
+    .nav-menu,
+    .nav-menu[hidden] {
+        flex-direction: row;
+        visibility: visible;
+        position: static;
+        transform: translateX(0);
+    }
+    
     .site-nav {
         margin: 1rem auto;
         flex-direction: column;
